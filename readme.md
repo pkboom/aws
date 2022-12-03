@@ -4,7 +4,7 @@
 
 [Terraform](https://developer.hashicorp.com/terraform/downloads)
 
-# [Configuration and credential file settings](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
+# Configuration and credential file settings [➜](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
 
 [Set configuration settings](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
 
