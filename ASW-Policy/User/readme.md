@@ -10,3 +10,5 @@
 <img src="user5.png" />
 
 We have users: user1 and user2. User2 enabled MFA authentication.
+
+user1 and user2 only have s3 access.
