@@ -26,4 +26,4 @@ cat output.json
 
 > Go to 'cloudwatch' and see the logs of this lambda function
 
-> You will see the list of files in the bucket 'keunbae-artifacts'.
+> You will see the list of objects from the bucket 'keunbae-artifacts'.
