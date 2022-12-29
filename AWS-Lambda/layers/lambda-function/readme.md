@@ -1,4 +1,4 @@
-# Create a lambda function
+# Update a lambda function
 
 ```sh
 npm init
