@@ -1,0 +1,12 @@
+{
+    "name": "keunbae/lambda-php",
+    "require": {
+        "bref/bref": "^1.7"
+    },
+    "authors": [
+        {
+            "name": "Keunbae Park",
+            "email": "pkboom@users.noreply.github.com"
+        }
+    ]
+}
