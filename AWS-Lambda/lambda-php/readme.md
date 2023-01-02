@@ -7,8 +7,8 @@ https://runtimes.bref.sh/?region=us-east-2
 ```sh
 composer init
 
-Would you like to define your dependencies (require) interactively [yes]? yes
-Search for a package: bref/bref
+> Would you like to define your dependencies (require) interactively [yes]? yes
+> Search for a package: bref/bref
 
 # zip everything in this directory.
 zip -r9q index.zip . -x 'readme.md' -x 'output.json' -x 'images'
