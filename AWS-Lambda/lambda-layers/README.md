@@ -5,7 +5,7 @@ npm init
 
 npm install @aws-sdk/client-s3
 
-zip -r9q index.zip . -x 'output.json' -x 'docs'
+zip -r9q index.zip . -x 'output.json' -x 'doc'
 # -x: exclude
 # -r: recursively
 
@@ -50,7 +50,7 @@ aws lambda publish-layer-version \
 
 > Go to 'Lambda > Layers' to see the published layer.
 
-<img src="layer1.png" />
+<img src="doc/layer1.png" />
 
 # Add a layer to a function
 
@@ -60,7 +60,7 @@ aws lambda update-function-configuration \
 --layers "arn:aws:lambda:us-east-2:460417962015:layer:my_func_nodejs_modules:2"
 ```
 
-<img src="layer2.png" />
+<img src="doc/layer2.png" />
 
 # Remove node_modules from function
 
@@ -80,4 +80,4 @@ aws lambda invoke \
 output.json
 ```
 
-<img src="layer3.png" />
+<img src="doc/layer3.png" />
