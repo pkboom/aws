@@ -41,7 +41,6 @@ aws lambda invoke \
 --cli-binary-format raw-in-base64-out \
 --payload '{"name": "Keunbae"}' \
 output.json
-
 ```
 
 <img src="images/php1.png" />
