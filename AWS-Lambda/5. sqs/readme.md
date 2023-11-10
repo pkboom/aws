@@ -7,7 +7,6 @@
 <img src="doc/sqs6.png" />
 <img src="doc/sqs8.png" />
 <img src="doc/sqs9.png" />
-<img src="doc/sqs10.png" />
 
 ```python
 import json

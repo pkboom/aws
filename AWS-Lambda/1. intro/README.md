@@ -1,12 +1,12 @@
 # Create a lambda function
 
-<img src="lambda1.png" />
+<img src="doc/lambda1.png" />
 
 > This also creates a role for logging. We will make this role usable for other lambda function.
 
-<img src="lambda2.png" />
-<img src="lambda3.png" />
-<img src="lambda4.png" />
+<img src="doc/lambda2.png" />
+<img src="doc/lambda3.png" />
+<img src="doc/lambda4.png" />
 
 Create a lambda function.
 
@@ -29,7 +29,7 @@ aws [--profile <profile>]lambda create-function \
 --zip-file fileb://index.zip
 ```
 
-<img src="lambda5.png" />
+<img src="doc/lambda5.png" />
 
 Invoke the function
 
@@ -42,6 +42,6 @@ aws lambda invoke \
 output.json
 ```
 
-<img src="lambda6.png" />
-<img src="lambda7.png" />
-<img src="lambda8.png" />
+<img src="doc/lambda6.png" />
+<img src="doc/lambda7.png" />
+<img src="doc/lambda8.png" />
