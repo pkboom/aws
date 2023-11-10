@@ -1,13 +1,13 @@
-<img src="sqs1.png" />
-<img src="sqs2.png" />
-<img src="sqs3.png" />
-<img src="sqs4.png" />
-<img src="sqs7.png" />
-<img src="sqs5.png" />
-<img src="sqs6.png" />
-<img src="sqs8.png" />
-<img src="sqs9.png" />
-<img src="sqs10.png" />
+<img src="doc/sqs1.png" />
+<img src="doc/sqs2.png" />
+<img src="doc/sqs3.png" />
+<img src="doc/sqs4.png" />
+<img src="doc/sqs7.png" />
+<img src="doc/sqs5.png" />
+<img src="doc/sqs6.png" />
+<img src="doc/sqs8.png" />
+<img src="doc/sqs9.png" />
+<img src="doc/sqs10.png" />
 
 ```python
 import json
