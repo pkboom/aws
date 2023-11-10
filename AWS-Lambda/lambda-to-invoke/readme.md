@@ -6,7 +6,7 @@
 rm index.zip
 
 # zip everything in this directory.
-zip -r9q index.zip . -x readme.md -x output.json -x images/\*
+zip -r9q index.zip . -x README.md -x output.json -x images/\*
 
 # publish
 aws lambda create-function \
@@ -20,7 +20,7 @@ aws lambda create-function \
 # update
 rm index.zip
 
-zip -r9q index.zip . -x readme.md -x output.json -x images/\*
+zip -r9q index.zip . -x README.md -x output.json -x images/\*
 
 aws lambda update-function-code \
 --function-name lambda_to_invoke \
