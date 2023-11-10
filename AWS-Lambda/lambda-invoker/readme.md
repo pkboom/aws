@@ -15,7 +15,9 @@ aws lambda create-function \
 # update
 rm lambda_function.zip
 
-zip -r9q lambda_function.zip . -x readme.md -x output.json -x images/\*
+# -q: quiet
+# -x: exclude
+zip -r9q lambda_function.zip . -x README.md -x output.json -x images/\*
 
 aws lambda update-function-code \
 --function-name invoker \
